@@ -25,7 +25,6 @@ public class SoftAssertionsSearchTest {
     static void setup() {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
-        Configuration.browserCapabilities = new ChromeOptions().addArguments("--remote-allow-origins=*");
     }
 
 
